@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WordPress text note</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/5d6bdd41be.js" crossorigin="anonymous"></script>
+    
+<link href="https://cdn.jsdelivr.net/npm/daisyui@3.5.1/dist/full.css" rel="stylesheet" type="text/css" />
+<script src="https://cdn.tailwindcss.com"></script>
+
+
+</head>
+<body>
+    
+
+    <section>
+        <div class="container-text">
+             <h1 class="text-3xl text-center text-gray-700 font-extrabold">Text New Note simple crated</h1>
+
+            <div class="header-text">
+        
+                <span  onclick="bold()">B</span>
+                <span     onclick="italic()">i</span>
+                <span     onclick="normal()">Normal</span>
+                <span     onclick="underline()">U</span>
+
+                <span onclick="left()"><i class="fa-solid fa-align-left"></i></span>
+                <span onclick="center()"><i class="fa-solid fa-align-center"></i></span>
+               <span onclick="right()">  <i class="fa-solid fa-align-right"></i></span>
+                <span onclick="justify()"><i class="fa-solid fa-align-justify"></i></span>
+                 <input class="border border-gray-700" id="inputSize" type="text">
+              
+            </div>
+
+
+
+             <textarea class=" overflow-y " name="" id="textInput" cols="88" rows="10"></textarea>
+
+         </div>
+    </section>
+    <script src="./index.js"></script>
+</body>
+</html>

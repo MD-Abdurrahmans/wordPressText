@@ -1,0 +1,41 @@
+
+.container-text{
+
+    margin: auto;
+
+   margin-top: 10%;
+   border: 2px solid black;
+   
+
+}
+.header-text{
+
+    display: flex;
+    margin-left: 10px;
+
+    margin-bottom: 10px;
+    border-bottom: 1px solid gray;
+}
+span{
+
+    /* border: 1px solid green; */
+    padding: 5px;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+/* 
+.bold{
+   font-weight: bolder;
+}
+.italic{
+
+font-style: italic;
+}
+.normal{
+
+font-weight: 400;
+}
+.underline{
+  text-decoration: underline;
+} */
